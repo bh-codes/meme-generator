@@ -50,5 +50,5 @@ h2 {
 
 .meme-image {
   padding-top: 36px;
-  width: 100%;
+  max-width: 100%;
 }
