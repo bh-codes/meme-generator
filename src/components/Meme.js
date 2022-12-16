@@ -3,7 +3,8 @@ import memesData from "../memesData.js"
 
 export default function Meme() {
 
-    const [memeImage, setMemeImage]= React.useState("")
+    // state couldn't be left as empty string - will return error so placeholder img was put in
+    const [memeImage, setMemeImage]= React.useState("http://i.imgflip.com/1bij.jpg")
 
     function newMeme() {
         const memesArray = memesData.data.memes
