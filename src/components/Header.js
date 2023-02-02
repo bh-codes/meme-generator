@@ -3,7 +3,7 @@ export default function Header() {
     <header className="header-container">
       <img
         className="header-img"
-        src="./images/troll-face.png"
+        src="src/public/images/troll-face.png"
         alt="troll face"
       />
       <h2 className="header-title">MemeGenerator</h2>
